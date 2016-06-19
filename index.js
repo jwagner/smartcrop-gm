@@ -5,8 +5,8 @@ gm = gm.subClass({ imageMagick: true });
 
 var iop = {
   open: function(src) {
-    var _gm = gm(src);
     return new Promise(function(resolve, reject) {
+      var _gm = gm(src);
       _gm.size(function(err, size) {
         if (err) return reject(err);
         resolve({
