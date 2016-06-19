@@ -1,7 +1,7 @@
 {
-  "name": "smartcrop-sharp",
+  "name": "smartcrop-gm",
   "version": "1.0.0",
-  "description": "smartcrop adapter for sharp",
+  "description": "smartcrop adapter for gm / imagemagick",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
