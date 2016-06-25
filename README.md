@@ -1,5 +1,7 @@
 # smartcrop-gm
 
+[![Build Status](https://travis-ci.org/jwagner/smartcrop-gm.svg?branch=master)](https://travis-ci.org/jwagner/smartcrop-gm)
+
 This is an adapter module for using [smartcrop.js](https://github.com/jwagner/smartcrop.js)
 with node.js using [gm](https://github.com/aheckmann/gm) for image decoding.
 
