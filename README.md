@@ -46,3 +46,9 @@ var src = 'https://raw.githubusercontent.com/jwagner/smartcrop-gm/master/test/fl
 applySmartCrop(src, 'flower-square.jpg', 128, 128);
 
 ```
+
+## Security Considerations
+
+smartcrop-gm is using imagemagick for decoding and resampling images.
+A number of [security issues](https://imagetragick.com/) have been found in imagemagick recently.
+Make sure that you take the appropriate steps to protect your infrastructure.
