@@ -5,12 +5,12 @@
 This is an adapter module for using [smartcrop.js](https://github.com/jwagner/smartcrop.js)
 with node.js using [gm](https://github.com/aheckmann/gm) for image decoding.
 
-It requires image magick to be installed and available in `$PATH` and the `gm` module as a peer dependency to function.
+Smartcrop-gm requires image magick to be installed and available in `$PATH` to function.
 
 ## Installation
 
 ```
-npm install --save smartcrop-gm gm
+npm install --save smartcrop-gm
 ```
 
 ## API
