@@ -1,19 +1,25 @@
 {
   "name": "smartcrop-gm",
-  "version": "1.0.2",
+  "version": "2.0.2",
   "description": "smartcrop adapter for gm / imagemagick",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "eslint index.js test/test.js && mocha --reporter spec"
   },
   "author": "Jonas Wagner <jonas@29a.ch>",
   "license": "MIT",
   "dependencies": {
-    "gm": "^1.22.0",
-    "smartcrop": "^1.1.1"
+    "smartcrop": "^2.0.2"
+  },
+  "peerDependencies": {
+    "gm": "^1.23.1"
   },
   "devDependencies": {
+    "prettier-eslint": "^8.8.1",
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "eslint": "^4.17.0",
+    "gm": "^1.22.0",
+    "mocha": "^2.5.3",
+    "prettier": "^1.10.2"
   }
 }
