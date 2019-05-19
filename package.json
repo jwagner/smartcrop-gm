@@ -9,14 +9,14 @@
   "author": "Jonas Wagner <jonas@29a.ch>",
   "license": "MIT",
   "dependencies": {
-    "smartcrop": "^2.0.2",
-    "gm": "^1.23.1"
+    "gm": "^1.23.1",
+    "smartcrop": "^2.0.3"
   },
   "devDependencies": {
-    "prettier-eslint": "^8.8.1",
-    "chai": "^3.5.0",
-    "eslint": "^4.17.0",
-    "mocha": "^2.5.3",
-    "prettier": "^1.10.2"
+    "chai": "^4.2.0",
+    "eslint": "^4.19.1",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.1",
+    "prettier-eslint": "^8.8.2"
   }
 }
